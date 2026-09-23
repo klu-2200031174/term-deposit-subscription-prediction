@@ -10,10 +10,11 @@ __pycache__/
 # Jupyter
 .ipynb_checkpoints/
 
-# Data (downloaded via src/download_data.py)
+# Data — regenerate with: python src/download_data.py
 data/
 
-# Saved models
+# Trained models — regenerate with: python src/train.py
+models/
 *.pkl
 *.joblib
 
